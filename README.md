@@ -18,24 +18,25 @@ This project uses an STM32 Nucleo board to control a radar-style system that swe
 - Breadboard and jumper wires
 
 ## Project Structure
-
-stm32-ultrasonic-radar/
-├── README.md
-├── firmware/
-│   ├── ... (build files)
-│   ├── UltraSonic_Radar-316Final.ioc
-│   ├── Debug/
-│   ├── Release/
-│   ├── Core/
-│   │   ├── Inc/
-│   │   │   └── ... (header files)
-│   │   ├── Src/
-│   │   │   └── ... (source files)
-│   │   └── Startup/
-│   ├── Drivers/
-│   │   └── CMSIS/
-│   │       └── ... (CMSIS files)
-│   └── .settings/
-│       └── ... (IDE settings)
-├── python-ui/
+```
+stm32-ultrasonic-radar/  
+├── README.md  
+├── firmware/  
+│   ├── ... (build files)  
+│   ├── UltraSonic_Radar-316Final.ioc  
+│   ├── Debug/  
+│   ├── Release/  
+│   ├── Core/  
+│   │   ├── Inc/  
+│   │   │   └── ... (header files)  
+│   │   ├── Src/  
+│   │   │   └── ... (source files)  
+│   │   └── Startup/  
+│   ├── Drivers/  
+│   │   └── CMSIS/  
+│   │       └── ... (CMSIS files)  
+│   └── .settings/  
+│       └── ... (IDE settings)  
+├── python-ui/  
 │   └── Radar.py
+```
