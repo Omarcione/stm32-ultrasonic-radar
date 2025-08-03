@@ -19,6 +19,23 @@ This project uses an STM32 Nucleo board to control a radar-style system that swe
 
 ## Project Structure
 
-- `firmware/` – Embedded code for STM32
-- `python-ui/` – Python script for radar-style display
-- `README.md` – Project description and instructions
+stm32-ultrasonic-radar/
+├── README.md
+├── firmware/
+│   ├── ... (build files)
+│   ├── UltraSonic_Radar-316Final.ioc
+│   ├── Debug/
+│   ├── Release/
+│   ├── Core/
+│   │   ├── Inc/
+│   │   │   └── ... (header files)
+│   │   ├── Src/
+│   │   │   └── ... (source files)
+│   │   └── Startup/
+│   ├── Drivers/
+│   │   └── CMSIS/
+│   │       └── ... (CMSIS files)
+│   └── .settings/
+│       └── ... (IDE settings)
+├── python-ui/
+│   └── Radar.py
