@@ -1,0 +1,13 @@
+../Core/Src/main.c:59:6:HAL_TIM_IC_CaptureCallback	24	static
+../Core/Src/main.c:101:5:main	16	static
+../Core/Src/main.c:157:6:TriggerSensor	8	static
+../Core/Src/main.c:172:6:print_distance_and_angle	152	static
+../Core/Src/main.c:193:6:servo_loop	64	static
+../Core/Src/main.c:221:6:alarm_loop	8	static
+../Core/Src/main.c:248:6:BuzzerOn	8	static
+../Core/Src/main.c:255:6:SystemClock_Config	96	static
+../Core/Src/main.c:305:13:MX_TIM2_Init	56	static
+../Core/Src/main.c:363:13:MX_TIM3_Init	64	static
+../Core/Src/main.c:422:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:457:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:501:6:Error_Handler	4	static,ignoring_inline_asm
